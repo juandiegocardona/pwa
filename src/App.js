@@ -1,12 +1,13 @@
 import React from 'react';
+import logo from './logo.svg';
 import './App.css';
-import Joke from "./components/joke"
+import Marvel from './components/marvelCharacter';
 
 function App() {
   return (
     <div className="App">
-      <h1>PWA Sample</h1>
-      <Joke/>
+      <h1>Marvel Characters</h1>
+      <Marvel/>
     </div>
   );
 }
